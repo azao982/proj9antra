@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+body {
+    background-image: url('/assets/plp.png');
+    background-size: cover;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  } 
+  label{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .x{
+    background-color:rgb(204, 97, 54);
+    color:black;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+  }
+  input{
+   
+    border-radius: 10px;
+    width: 800px;
+  }

@@ -1,0 +1,26 @@
+<body>
+
+<br>
+<br>
+<a class="n" href ="/Acceuil">Back to previous page</a>
+<a class="a" href="/ajouter">Add courses</a>
+
+<br>
+<br>
+<div class="container animated-background">
+  <div class="row">
+    <div class="col-4" *ngFor="let item of cour; let i = index">
+      <div class="card mb-4" style="width: 20rem;">
+        <img src="{{item.image}}" width="318px" height="200px">
+        <div class="card-body">
+          <h5>{{item.nomDuCours}}</h5>
+          <h5 class="bn">{{item.prix}}Dt/Month</h5>
+          <!-- Boutons Supprimer et Modifier -->
+          <button class="btn btn-danger l" (click)="supprimerCours(item.id)">Delete</button>
+          <button class="btn btn-primary m" (click)="redirigerVersPageModifier(item.id)">Update</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>

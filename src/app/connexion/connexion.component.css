@@ -1,0 +1,48 @@
+.xa{
+    margin-left: 450px;
+  }
+  .custom-bg-color {
+    background-color:rgb(226, 115, 24);
+    }  
+    .error-message {
+        color: rgb(248, 32, 60);
+        border-radius: 20px;
+      margin-top: 1px;
+    }
+    /* Add background styles */
+  
+  /* Add animation styles */
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .animated-background {
+    animation: slideIn 0.5s ease-in-out;
+  }
+  .n{
+    color:black;
+    background-color:rgb(238, 125, 33);
+    border-radius: 30px;
+    width: 150px;
+    height:50px;
+   font-size: 20px;
+   font-weight: bold;
+  }
+  label{
+    color:black;
+    font-size: large;
+    font-weight: bold;
+  }
+  body {
+    background-image: url('/assets/9a.jpg');
+    background-size: cover;
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
